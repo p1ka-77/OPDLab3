@@ -1,0 +1,1358 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.4f1 (03270eb687c6) revision 206606'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 16051 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-05-24T16:19:13Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Admin/Documents/GitHub/OPDLab3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49885
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Admin/Documents/GitHub/OPDLab3
+C:/Users/Admin/Documents/GitHub/OPDLab3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33712]  Target information:
+
+Player connection [33712]  * "[IP] 26.187.90.88 [Port] 0 [Flags] 2 [Guid] 3489361018 [EditorId] 3489361018 [Version] 1048832 [Id] WindowsEditor(7,LimbEnchancers2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [33712]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3489361018 [EditorId] 3489361018 [Version] 1048832 [Id] WindowsEditor(7,LimbEnchancers2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [33712] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33712] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.4f1 (03270eb687c6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Documents/GitHub/OPDLab3/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:          NVIDIA
+    VRAM:            5996 MB
+    App VRAM Budget: 5228 MB
+    Driver:          32.0.15.7652
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001674 seconds.
+- Loaded All Assemblies, in  0.372 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.297 seconds
+Domain Reload Profiling: 667ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.243 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.308 seconds
+Domain Reload Profiling: 548ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (12ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (222ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (42.6 KB). Loaded Objects now: 593.
+Memory consumption went from 55.7 MB to 55.6 MB.
+Total: 3.553200 ms (FindLiveObjects: 0.040500 ms CreateObjectMapping: 0.006100 ms MarkObjects: 3.416600 ms  DeleteObjects: 0.088400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 181570.943929 seconds.
+  path: Assets/IndieMarc
+  artifactKey: Guid(2d23e212a6bb9e9409dae941d310b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc using Guid(2d23e212a6bb9e9409dae941d310b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6b47506385e89385f0d378d6d304028') in 0.0068719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IndieMarc/Icon.png
+  artifactKey: Guid(eea8d0a68959954468e2e6aa0f659fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/Icon.png using Guid(eea8d0a68959954468e2e6aa0f659fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d9e12335442ffadc2b6d2c6028a9d61') in 0.1140976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136573 seconds.
+  path: Assets/IndieMarc/PlatformerDemo
+  artifactKey: Guid(ff3cce638b247874e8bf3d90a67aba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo using Guid(ff3cce638b247874e8bf3d90a67aba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe49ecd57193bddc268f0025513dc428') in 0.0004757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.663003 seconds.
+  path: Assets/IndieMarc/Simple2DTemplate.pdf
+  artifactKey: Guid(599ab31ae15957a43a88a60d8ee8ecdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/Simple2DTemplate.pdf using Guid(599ab31ae15957a43a88a60d8ee8ecdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4ce23dec0b6dbf90b4779c7796339eb') in 0.0015164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.250475 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity
+  artifactKey: Guid(230ee21eea18d46e48f6038641c438b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/PlatformerDemo.unity using Guid(230ee21eea18d46e48f6038641c438b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15ab52a74014d01fae75f96e102f612f') in 0.0005463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.228 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.292 seconds
+Domain Reload Profiling: 518ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (10ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (292ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (211ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 601.
+Memory consumption went from 59.0 MB to 59.0 MB.
+Total: 2.972800 ms (FindLiveObjects: 0.035100 ms CreateObjectMapping: 0.007300 ms MarkObjects: 2.896600 ms  DeleteObjects: 0.032800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 77.743084 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Prefabs
+  artifactKey: Guid(f068dd67df4805e4287335af88f26c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Prefabs using Guid(f068dd67df4805e4287335af88f26c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3da5408bab9eb4ec93679a08ee110f77') in 0.0021228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031103 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Prefabs/CharacterPlatformer.prefab
+  artifactKey: Guid(488fef3a70db04a7d975594f7ab7ce56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Prefabs/CharacterPlatformer.prefab using Guid(488fef3a70db04a7d975594f7ab7ce56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de6676439533c15923b3aea8ddc3125a') in 0.1922175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Prefabs/TreeBackground.prefab
+  artifactKey: Guid(91529c2350cce4a0eae08093c4300e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Prefabs/TreeBackground.prefab using Guid(91529c2350cce4a0eae08093c4300e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea8783c27bc1a55906cf9ced28759069') in 0.1259557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.209697 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Materials
+  artifactKey: Guid(36e9b3a28120a0841bed6886ca88cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Materials using Guid(36e9b3a28120a0841bed6886ca88cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbf83f91ce1e45c9fd3db75c39d4b690') in 0.00072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.312531 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Editor
+  artifactKey: Guid(324d126e310b4cd449ecde98c1fb938b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Editor using Guid(324d126e310b4cd449ecde98c1fb938b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb5d983658d89f02d5407c3404561b2c') in 0.0006079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.896700 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Editor/ImportPackage.cs
+  artifactKey: Guid(2c9fb2a2499d85c4fab755ad43d014b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Editor/ImportPackage.cs using Guid(2c9fb2a2499d85c4fab755ad43d014b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11ed475480815349c2b75033badb43c5') in 0.0005223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.160255 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Materials/SpriteDiffuseP.mat
+  artifactKey: Guid(1d098f5e2d51f904680c81895d2c02b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Materials/SpriteDiffuseP.mat using Guid(1d098f5e2d51f904680c81895d2c02b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dfb1a250971fbfe88a301289c199cb2') in 0.1207606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.642218 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites
+  artifactKey: Guid(614306b560283fc488f1f8d5d3db783e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites using Guid(614306b560283fc488f1f8d5d3db783e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50dfa8d7d20d62d9142778530db66d0f') in 0.0005983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027144 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Circle.png
+  artifactKey: Guid(e28f62e17ab915240aaa2eed417db312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Circle.png using Guid(e28f62e17ab915240aaa2eed417db312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7ae8874a88b17385a54ddd902e7fb95') in 0.0277491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.871638 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Background
+  artifactKey: Guid(708286403ab16af4f8970f8fc8b1996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Background using Guid(708286403ab16af4f8970f8fc8b1996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a96cf3e4fcb3cb4936e7a0da7476af1') in 0.0005683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051302 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/grass1.png
+  artifactKey: Guid(27884cf431913254299eeebc1fed4a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Background/grass1.png using Guid(27884cf431913254299eeebc1fed4a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbef138f4806afa710f20a5e7f9d6344') in 0.013948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.png
+  artifactKey: Guid(3ca922221cf29e34fbd35f933b9498a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees1.png using Guid(3ca922221cf29e34fbd35f933b9498a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c88732449c383e875d91383fd06696f') in 0.0530547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.png
+  artifactKey: Guid(48e2082ec55834840b811d7ac2d9a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Background/Trees3.png using Guid(48e2082ec55834840b811d7ac2d9a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e0ccdd11afe47244b5d455b644292cf') in 0.0373133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.854751 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Lever
+  artifactKey: Guid(f86bdb239ddc5f644bcd637af39857dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Lever using Guid(f86bdb239ddc5f644bcd637af39857dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '441005c6ddecb1faafd65f6a10cafb64') in 0.0005451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022579 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Lever/Lever_position01.png
+  artifactKey: Guid(f933e4eb38a07dc449409aa29f931196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Lever/Lever_position01.png using Guid(f933e4eb38a07dc449409aa29f931196) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21e2be4a1eee6c383fffe53f4731405c') in 0.0264661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Sprites/Lever/Lever_position03.png
+  artifactKey: Guid(9fd2da01209c4924194070e9f0857ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Sprites/Lever/Lever_position03.png using Guid(9fd2da01209c4924194070e9f0857ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46f349418d170e8331606154393e10d7') in 0.0142082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.971942 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap
+  artifactKey: Guid(e9c8335ec074d2a489b7a1afbde0106a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap using Guid(e9c8335ec074d2a489b7a1afbde0106a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a29df4dde9165c30c39a9e07996288f') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032375 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/PlatformerPalette.prefab
+  artifactKey: Guid(9af0c3bd5a1094a14bb01bb8770f4365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/PlatformerPalette.prefab using Guid(9af0c3bd5a1094a14bb01bb8770f4365) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad315750b6228d1454cb8234ac11ae28') in 0.0298184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.622934 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black
+  artifactKey: Guid(54be27fb08510e34dbd19671f582af2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black using Guid(54be27fb08510e34dbd19671f582af2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69f2864a97c75c9630a552b0ec952591') in 0.0004761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119410 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-corner-left.png
+  artifactKey: Guid(3cd44b8105af31e41a8ff38b1eb11ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-corner-left.png using Guid(3cd44b8105af31e41a8ff38b1eb11ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6a7f597e23585792305527e7e892b8c') in 0.0066345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007404 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-empty.png
+  artifactKey: Guid(bb442bf150e81e44aa15a7d077be93b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-empty.png using Guid(bb442bf150e81e44aa15a7d077be93b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '183010a80e8327de5b0d39fda62e11a8') in 0.0065294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-right-down.png
+  artifactKey: Guid(b009aaf79b40ccf4ca9f2e51182e5591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-right-down.png using Guid(b009aaf79b40ccf4ca9f2e51182e5591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bc0baa6ec5d163cfc8390fda0e967af') in 0.0067231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left-down.asset
+  artifactKey: Guid(19445a47a9544c04eb951035061ae93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left-down.asset using Guid(19445a47a9544c04eb951035061ae93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d0b37789fd2f0fae30d4b540274cd30') in 0.0062833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_0.asset
+  artifactKey: Guid(09fdae6fda6d6c942b840d4b7389de95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_0.asset using Guid(09fdae6fda6d6c942b840d4b7389de95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ed035699eed7b391c33d048ea68436c') in 0.0048144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left.png
+  artifactKey: Guid(59e1a3436b7c92c43836479561d9d9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-left.png using Guid(59e1a3436b7c92c43836479561d9d9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '447f162a25d65c7814e631cccfe61a64') in 0.0073009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_7.asset
+  artifactKey: Guid(b23e11badbd1c834da49f69458eb169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_7.asset using Guid(b23e11badbd1c834da49f69458eb169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c95af9bac666779d6ab86d999f2a2ad') in 0.0040214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right-down.asset
+  artifactKey: Guid(9f6238b263e800f41b3ab3601c0312f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right-down.asset using Guid(9f6238b263e800f41b3ab3601c0312f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d45f18edfcd9192bfcb8e36b3c75022') in 0.0044526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-right.png
+  artifactKey: Guid(bc5ab3a00dbef2648a95c20d90cae609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-right.png using Guid(bc5ab3a00dbef2648a95c20d90cae609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7290db8051f81e668fab51246c58c657') in 0.0069396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_3.asset
+  artifactKey: Guid(84c89209ecaab8143ad3cf14f2be3043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_3.asset using Guid(84c89209ecaab8143ad3cf14f2be3043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d6920c5a98933a0267aaf37e6dfd315') in 0.004363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_4.asset
+  artifactKey: Guid(732424989e347fa4cadc5c837451a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_4.asset using Guid(732424989e347fa4cadc5c837451a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e59c70acda42ffbb96babed00f21686b') in 0.0044656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-corner-right.png
+  artifactKey: Guid(ff6dfd1a5554f4d42ab546e35f13fb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-corner-right.png using Guid(ff6dfd1a5554f4d42ab546e35f13fb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e714afcc70f473faf993818178e1acc') in 0.0078496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right-down.png
+  artifactKey: Guid(89e671f441dd749438f0505087026e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-slide-corner-right-down.png using Guid(89e671f441dd749438f0505087026e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '705a3550876b81895f93d0515b352f39') in 0.0071393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_8.asset
+  artifactKey: Guid(15f1a2dd6e73cb44b87ce9fa4e0f8ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_8.asset using Guid(15f1a2dd6e73cb44b87ce9fa4e0f8ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91508126b8596a4bb65896ee5ca5e4cb') in 0.0050352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_5.asset
+  artifactKey: Guid(868bfc083d111bc4fb3199b0409700e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_5.asset using Guid(868bfc083d111bc4fb3199b0409700e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe90fb603c65875ccd79d357d6221d45') in 0.0041849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_6.asset
+  artifactKey: Guid(4c3a4c38924408144ae04a47190c5db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_6.asset using Guid(4c3a4c38924408144ae04a47190c5db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '335616f4eac4f10856b79c111d566557') in 0.0036573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-flat-top.png
+  artifactKey: Guid(b744ddc17d3fd2040bca13133448b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tile-flat-top.png using Guid(b744ddc17d3fd2040bca13133448b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59adffb9c585e3fdd53e1c4ca6f978b2') in 0.0066457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_2.asset
+  artifactKey: Guid(03ce0cd312718b7489e027fe32ae4160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_2.asset using Guid(03ce0cd312718b7489e027fe32ae4160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88c7a786a9e4671567dd1005c9ab91ec') in 0.0048819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_10.asset
+  artifactKey: Guid(b8f5a40b7e8287643909acb1479b1e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_10.asset using Guid(b8f5a40b7e8287643909acb1479b1e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dcacfcd30b699e5d393b3ce4f11adca') in 0.0040628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_1.asset
+  artifactKey: Guid(5fe1d3b9c2ba44c408340f4db04454d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Black/tilemap_1.asset using Guid(5fe1d3b9c2ba44c408340f4db04454d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2cc4cb97d9620d87b8b83ba73de67a1') in 0.0037868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.306313 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-corner-left-down.png
+  artifactKey: Guid(ee3a4c26b312c704286b99fc9373cfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-corner-left-down.png using Guid(ee3a4c26b312c704286b99fc9373cfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd76f60b02dd74ecf3796cfa927ed2dcc') in 0.0105376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-corner-right-down.png
+  artifactKey: Guid(19381676f11de864ebe55908460de5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-corner-right-down.png using Guid(19381676f11de864ebe55908460de5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bf528710847b860974f655ffab83b56') in 0.0324182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-left-down.png
+  artifactKey: Guid(fddc7c8728fa8db4cb14d68bc97bf696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-left-down.png using Guid(fddc7c8728fa8db4cb14d68bc97bf696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6507e37e7bfbf29bc0eb015f24574522') in 0.0137521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-corner-left.png
+  artifactKey: Guid(b04aa4cff6f19ea43bfdf4da347c7fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-corner-left.png using Guid(b04aa4cff6f19ea43bfdf4da347c7fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a58557904d2e0db2258694629aaeb38') in 0.0134572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-corner-right.png
+  artifactKey: Guid(e3b9448900aef7b4f88bbd672ec312bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-corner-right.png using Guid(e3b9448900aef7b4f88bbd672ec312bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ec9dafbd7ee9922d2f5079d083919e4') in 0.0362579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-right.png
+  artifactKey: Guid(ae1e5991a6557274185863f4e348dd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IndieMarc/PlatformerDemo/Tilemap/Old/old-tile-slide-right.png using Guid(ae1e5991a6557274185863f4e348dd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15603f0ee13cb1e98cf9b6ceb6457104') in 0.054359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.232 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.273 seconds
+Domain Reload Profiling: 503ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (11ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 59.9 MB to 59.8 MB.
+Total: 2.820700 ms (FindLiveObjects: 0.033700 ms CreateObjectMapping: 0.006900 ms MarkObjects: 2.749600 ms  DeleteObjects: 0.029500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.225 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 502ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (13ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (191ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 60.0 MB to 60.0 MB.
+Total: 2.698000 ms (FindLiveObjects: 0.034600 ms CreateObjectMapping: 0.006300 ms MarkObjects: 2.626200 ms  DeleteObjects: 0.029800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.217 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.254 seconds
+Domain Reload Profiling: 469ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (11ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (254ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 60.2 MB to 60.2 MB.
+Total: 3.069300 ms (FindLiveObjects: 0.032500 ms CreateObjectMapping: 0.007000 ms MarkObjects: 3.000000 ms  DeleteObjects: 0.029200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.218 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.250 seconds
+Domain Reload Profiling: 466ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (12ms)
+		LoadAssemblies (90ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (250ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (176ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 60.4 MB to 60.3 MB.
+Total: 2.737100 ms (FindLiveObjects: 0.034500 ms CreateObjectMapping: 0.006900 ms MarkObjects: 2.664200 ms  DeleteObjects: 0.030800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.217 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.250 seconds
+Domain Reload Profiling: 465ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (11ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (250ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (176ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 60.5 MB to 60.5 MB.
+Total: 2.887300 ms (FindLiveObjects: 0.034400 ms CreateObjectMapping: 0.007100 ms MarkObjects: 2.815000 ms  DeleteObjects: 0.029900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.214 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.261 seconds
+Domain Reload Profiling: 473ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (12ms)
+		LoadAssemblies (86ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (261ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 60.7 MB to 60.7 MB.
+Total: 2.903700 ms (FindLiveObjects: 0.049400 ms CreateObjectMapping: 0.009200 ms MarkObjects: 2.814500 ms  DeleteObjects: 0.029700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.218 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.254 seconds
+Domain Reload Profiling: 470ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (12ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (254ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 60.9 MB to 60.9 MB.
+Total: 2.963200 ms (FindLiveObjects: 0.036500 ms CreateObjectMapping: 0.007500 ms MarkObjects: 2.888700 ms  DeleteObjects: 0.029500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.226 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.253 seconds
+Domain Reload Profiling: 477ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (12ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 61.0 MB to 61.0 MB.
+Total: 2.789300 ms (FindLiveObjects: 0.035500 ms CreateObjectMapping: 0.007300 ms MarkObjects: 2.718800 ms  DeleteObjects: 0.026800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.238 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 493ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (11ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 61.2 MB to 61.2 MB.
+Total: 2.997000 ms (FindLiveObjects: 0.034600 ms CreateObjectMapping: 0.006900 ms MarkObjects: 2.921400 ms  DeleteObjects: 0.033100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.229 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.252 seconds
+Domain Reload Profiling: 480ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (10ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (177ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 61.4 MB to 61.4 MB.
+Total: 2.738400 ms (FindLiveObjects: 0.050300 ms CreateObjectMapping: 0.008200 ms MarkObjects: 2.644200 ms  DeleteObjects: 0.034200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.226 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 482ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (10ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 61.5 MB to 61.5 MB.
+Total: 3.108300 ms (FindLiveObjects: 0.034000 ms CreateObjectMapping: 0.007200 ms MarkObjects: 3.010900 ms  DeleteObjects: 0.055100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.221 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.255 seconds
+Domain Reload Profiling: 474ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (14ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (180ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 61.7 MB to 61.7 MB.
+Total: 3.330200 ms (FindLiveObjects: 0.038100 ms CreateObjectMapping: 0.006900 ms MarkObjects: 3.250500 ms  DeleteObjects: 0.033100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.245 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.263 seconds
+Domain Reload Profiling: 506ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (11ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (263ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 61.9 MB to 61.9 MB.
+Total: 2.786600 ms (FindLiveObjects: 0.037100 ms CreateObjectMapping: 0.007400 ms MarkObjects: 2.711800 ms  DeleteObjects: 0.029400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.242 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.252 seconds
+Domain Reload Profiling: 492ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (10ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (252ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (176ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 62.0 MB to 62.0 MB.
+Total: 2.815200 ms (FindLiveObjects: 0.035900 ms CreateObjectMapping: 0.007500 ms MarkObjects: 2.739800 ms  DeleteObjects: 0.030800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.225 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.259 seconds
+Domain Reload Profiling: 483ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (11ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (181ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (3.1 KB). Loaded Objects now: 649.
+Memory consumption went from 62.2 MB to 62.2 MB.
+Total: 2.808700 ms (FindLiveObjects: 0.035600 ms CreateObjectMapping: 0.007100 ms MarkObjects: 2.733300 ms  DeleteObjects: 0.032000 ms)
+
+Prepare: number of updated asset objects reloaded= 0

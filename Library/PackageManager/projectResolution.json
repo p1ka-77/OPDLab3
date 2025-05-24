@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "C:/Users/Grish/OPD_LABA3/Simple 2D Template/Packages",
+    "projectPath": "C:/Users/Admin/Documents/GitHub/OPDLab3/Packages",
     "unityVersion": "6000.1.4f1"
   },
   "inputs": [
-    "C:\\Users\\Grish\\OPD_LABA3\\Simple 2D Template\\Packages\\manifest.json",
-    "C:\\Users\\Grish\\OPD_LABA3\\Simple 2D Template\\Packages\\packages-lock.json",
+    "C:\\Users\\Admin\\Documents\\GitHub\\OPDLab3\\Packages\\manifest.json",
+    "C:\\Users\\Admin\\Documents\\GitHub\\OPDLab3\\Packages\\packages-lock.json",
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.1.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "C:\\Users\\Grish\\OPD_LABA3\\Simple 2D Template\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
+      "resolvedPath": "C:\\Users\\Admin\\Documents\\GitHub\\OPDLab3\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
       "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
