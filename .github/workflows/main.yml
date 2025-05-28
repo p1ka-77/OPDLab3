@@ -5,6 +5,11 @@ on:
   workflow_dispatch: # workflow dispatch is for manual run from actions page
   push: # on push
   
+permissions:
+  contents: read
+  packages: write
+  actions: write
+  checks: write
   
 jobs:
   testProject:
